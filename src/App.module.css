@@ -1,0 +1,8 @@
+.decoration {
+  background-color: hsl(195, 20%, 86%);
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
