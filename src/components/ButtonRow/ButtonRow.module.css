@@ -1,3 +1,9 @@
 .buttonRow {
-    width: max-content;
+    /* width: max-content; */
+    overflow: auto;
+    white-space: nowrap; /* disable wrapping for flow layout */
+    margin-right: -22px;
+    margin-left: -22px;
+    margin-bottom: -22px;
+    padding: 22px;
 }

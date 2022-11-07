@@ -3,19 +3,21 @@
   padding-bottom: 64px;
   position: relative;
   /* background-color: yellow; */
-  width: 1024px;
-  margin: 0 auto;
+  /* width: 1024px; */
+  /* margin: 0 auto; */
 }
 
 .maxWidthWrapper {
   /* background-color: pink; */
   /* width: 665.6px; */
-  width: 65%;
-  margin: 0 40px;
+  /* width: 65%; */
+  /* margin: 0 40px; */
+  position: relative;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -33,19 +35,32 @@
 
 .characterWrapper {
   /* width: 358.4px; */
-  width: 35%;
+  /* width: 35%; */
   min-height: 500px;
   position: fixed;
-  top: 12%;
-  bottom: 0;
+  /* top: 12%; */
+  top: 15%;
+  /* bottom: 0; */
+  bottom: 5%;;
   left: 60%;
+  margin-left: -32px; /* have a gap not matter the size of the window */
   /* background-color: red; */
 }
 
 .controlColumn {
-  width: 512px;
+  /* width: 512px; */
+  width: 50%;
   /* width: 85%; */
   /* background-color: green; */
+}
+
+.perspectiveEffect {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: hsl(195deg, 20%, 86%);
 }
 
 @media (width <= 500px) {
