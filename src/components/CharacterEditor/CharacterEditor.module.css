@@ -36,8 +36,8 @@
   width: 35%;
   min-height: 500px;
   position: fixed;
-  top: 15%;
-  bottom: 200px;
+  top: 12%;
+  bottom: 0;
   left: 60%;
   /* background-color: red; */
 }
